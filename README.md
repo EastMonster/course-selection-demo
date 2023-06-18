@@ -91,6 +91,8 @@
 1. 进入 `backend` 文件夹
 2. 如果在前面配置数据库的步骤中修改了数据库或者用户的名称和密码，那么到 `/src/main/resource` 下的 `application.properties` 文件中进行相应更改。
 3. 进入命令行，在 `backend` 文件夹下运行 `mvnw spring-boot:run`. 
+
+   > 使用 IDEA 打开项目然后运行也是可以的
    
    > 如果提示 `JAVA_HOME` 相关的问题，请先配置好 Java 环境；
 
