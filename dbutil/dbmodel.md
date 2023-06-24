@@ -1,10 +1,12 @@
-### 数据库模式
+## 数据库模式
+> 在《数据库系统概念》教材中的 `university` 模式的基础上修改而来
+> 
 **粗体**为实体集合, *斜体*为弱实体集;
 
 <ins>下划线</ins>为主键, *斜体*为外键.
 
 
-#### 实体集
+### 实体集
 - **student**(<ins>stu_id</ins>, stu_name, stu_passwd, total_cred, *major_name*)
 - **instructor**(<ins>inst_id</ins>,  inst_name, inst_passwd, *dept_name*)
 - **department**(<ins>dept_name</ins>)
@@ -15,7 +17,7 @@
 
 - *section*(*<ins>course_id</ins>*, <ins>sec_id</ins>, <ins>semester</ins>, <ins>year</ins>, selected_stu, max_stu, *building*, *room_number*, *time_slot_id*)
 
-#### 关系集
+### 关系集
 - **major_dept** (并入 major)
 - **stu_dept** (并入 student)
 - **inst_dept** (并入 instructor)
@@ -25,3 +27,14 @@
 - *sec_course* (并入 section)
 - **sec_time_slot** (并入 section)
 - **sec_class** (并入 section)
+
+### 图示
+#### ER 图
+<p align="center">
+  <img src="ER.drawio.png" />
+</p>
+
+#### 模式图
+<p align="center">
+  <img src="DBTables.drawio.png" />
+</p>
