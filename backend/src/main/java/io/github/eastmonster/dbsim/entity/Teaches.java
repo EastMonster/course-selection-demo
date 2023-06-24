@@ -31,7 +31,7 @@ public class Teaches {
      */
     private Integer grade;
 
-    // ===== 以下属性不属于 takes 表 =====
+    // ===== 以下属性不属于 teaches 表 =====
 
     /**
      * building, 课程所在建筑
