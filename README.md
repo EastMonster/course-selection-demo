@@ -71,7 +71,7 @@
    ```
 4. 导入数据，这一步需要输入密码
    ```
-   mysql -u username -p dbsim < one-step-setup.sql
+   mysql -u root -p dbsim < one-step-setup.sql
    ```
    > 导入用的脚本文件 `one-step-setup.sql` 文件已在 `./dbutil` 中提供。如果提示文件不存在，请使用绝对路径。
 
